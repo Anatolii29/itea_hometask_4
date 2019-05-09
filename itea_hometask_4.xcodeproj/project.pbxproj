@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C14038122843DA30051D881 /* trashTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14038022843DA30051D881 /* trashTableViewCell.xib */; };
+		9C14038522843E100051D881 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14038422843DD80051D881 /* Product.swift */; };
+		9C14038922843F6B0051D881 /* productListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14038822843F6B0051D881 /* productListTableViewCell.xib */; };
+		9C14038C22843FBA0051D881 /* trashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14038B22843FA70051D881 /* trashViewController.swift */; };
+		9C14038E22843FD40051D881 /* productListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14038D22843FD40051D881 /* productListViewController.swift */; };
+		9C14039022843FEB0051D881 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14038F22843FEB0051D881 /* detailsViewController.swift */; };
+		9C140393228440190051D881 /* productListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C140392228440100051D881 /* productListTableViewCell.swift */; };
+		9C140395228440280051D881 /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C140394228440280051D881 /* tabBarViewController.swift */; };
+		9C140397228440400051D881 /* trashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C140396228440400051D881 /* trashTableViewCell.swift */; };
+		9C14039A228448960051D881 /* ViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C140399228448960051D881 /* ViewControllerExtention.swift */; };
 		9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E42228435D300FA4D09 /* AppDelegate.swift */; };
 		9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E44228435D300FA4D09 /* ViewController.swift */; };
 		9CFF9E48228435D300FA4D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFF9E46228435D300FA4D09 /* Main.storyboard */; };
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C14038022843DA30051D881 /* trashTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trashTableViewCell.xib; sourceTree = "<group>"; };
+		9C14038422843DD80051D881 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9C14038822843F6B0051D881 /* productListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = productListTableViewCell.xib; path = ../productListTableViewCell.xib; sourceTree = "<group>"; };
+		9C14038B22843FA70051D881 /* trashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trashViewController.swift; sourceTree = "<group>"; };
+		9C14038D22843FD40051D881 /* productListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListViewController.swift; sourceTree = "<group>"; };
+		9C14038F22843FEB0051D881 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		9C140392228440100051D881 /* productListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListTableViewCell.swift; sourceTree = "<group>"; };
+		9C140394228440280051D881 /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
+		9C140396228440400051D881 /* trashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trashTableViewCell.swift; sourceTree = "<group>"; };
+		9C140399228448960051D881 /* ViewControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtention.swift; sourceTree = "<group>"; };
 		9CFF9E3F228435D300FA4D09 /* itea_hometask_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itea_hometask_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFF9E42228435D300FA4D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFF9E44228435D300FA4D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +96,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C14038322843DD30051D881 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C14038422843DD80051D881 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C14038A22843F9B0051D881 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C14038B22843FA70051D881 /* trashViewController.swift */,
+				9C14038D22843FD40051D881 /* productListViewController.swift */,
+				9C14038F22843FEB0051D881 /* detailsViewController.swift */,
+				9C140394228440280051D881 /* tabBarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9C140391228440030051D881 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9C140392228440100051D881 /* productListTableViewCell.swift */,
+				9C140396228440400051D881 /* trashTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9C1403982284486A0051D881 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				9C140399228448960051D881 /* ViewControllerExtention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		9CFF9E36228435D300FA4D09 = {
 			isa = PBXGroup;
 			children = (
@@ -131,9 +187,23 @@
 		9CFF9E702284363000FA4D09 /* tabBar */ = {
 			isa = PBXGroup;
 			children = (
-				9CFF9E712284365400FA4D09 /* tabBar.storyboard */,
+				9C1403982284486A0051D881 /* Extentions */,
+				9C140391228440030051D881 /* Cells */,
+				9C14038A22843F9B0051D881 /* ViewControllers */,
+				9C14038322843DD30051D881 /* Models */,
+				9CFF9E9422843B2D00FA4D09 /* UI */,
 			);
 			path = tabBar;
+			sourceTree = "<group>";
+		};
+		9CFF9E9422843B2D00FA4D09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9C14038022843DA30051D881 /* trashTableViewCell.xib */,
+				9C14038822843F6B0051D881 /* productListTableViewCell.xib */,
+				9CFF9E712284365400FA4D09 /* tabBar.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +310,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C14038122843DA30051D881 /* trashTableViewCell.xib in Resources */,
 				9CFF9E722284365400FA4D09 /* tabBar.storyboard in Resources */,
 				9CFF9E4D228435D300FA4D09 /* LaunchScreen.storyboard in Resources */,
 				9CFF9E4A228435D300FA4D09 /* Assets.xcassets in Resources */,
 				9CFF9E48228435D300FA4D09 /* Main.storyboard in Resources */,
+				9C14038922843F6B0051D881 /* productListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +340,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C14038E22843FD40051D881 /* productListViewController.swift in Sources */,
+				9C140397228440400051D881 /* trashTableViewCell.swift in Sources */,
+				9C14038C22843FBA0051D881 /* trashViewController.swift in Sources */,
+				9C14038522843E100051D881 /* Product.swift in Sources */,
+				9C140395228440280051D881 /* tabBarViewController.swift in Sources */,
+				9C14039A228448960051D881 /* ViewControllerExtention.swift in Sources */,
+				9C14039022843FEB0051D881 /* detailsViewController.swift in Sources */,
 				9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */,
 				9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */,
+				9C140393228440190051D881 /* productListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
