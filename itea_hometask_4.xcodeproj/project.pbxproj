@@ -14,6 +14,7 @@
 		9CFF9E4D228435D300FA4D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFF9E4B228435D300FA4D09 /* LaunchScreen.storyboard */; };
 		9CFF9E58228435D300FA4D09 /* itea_hometask_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E57228435D300FA4D09 /* itea_hometask_4Tests.swift */; };
 		9CFF9E63228435D300FA4D09 /* itea_hometask_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E62228435D300FA4D09 /* itea_hometask_4UITests.swift */; };
+		9CFF9E722284365400FA4D09 /* tabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFF9E712284365400FA4D09 /* tabBar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9CFF9E5E228435D300FA4D09 /* itea_hometask_4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itea_hometask_4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFF9E62228435D300FA4D09 /* itea_hometask_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itea_hometask_4UITests.swift; sourceTree = "<group>"; };
 		9CFF9E64228435D300FA4D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFF9E712284365400FA4D09 /* tabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tabBar.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		9CFF9E41228435D300FA4D09 /* itea_hometask_4 */ = {
 			isa = PBXGroup;
 			children = (
+				9CFF9E702284363000FA4D09 /* tabBar */,
 				9CFF9E42228435D300FA4D09 /* AppDelegate.swift */,
 				9CFF9E44228435D300FA4D09 /* ViewController.swift */,
 				9CFF9E46228435D300FA4D09 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				9CFF9E64228435D300FA4D09 /* Info.plist */,
 			);
 			path = itea_hometask_4UITests;
+			sourceTree = "<group>";
+		};
+		9CFF9E702284363000FA4D09 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9CFF9E712284365400FA4D09 /* tabBar.storyboard */,
+			);
+			path = tabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CFF9E722284365400FA4D09 /* tabBar.storyboard in Resources */,
 				9CFF9E4D228435D300FA4D09 /* LaunchScreen.storyboard in Resources */,
 				9CFF9E4A228435D300FA4D09 /* Assets.xcassets in Resources */,
 				9CFF9E48228435D300FA4D09 /* Main.storyboard in Resources */,
