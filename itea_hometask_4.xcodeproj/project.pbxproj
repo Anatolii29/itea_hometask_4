@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2912CEB0A69340E948232B /* Pods_itea_hometask_4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA8A451D7869386A97BD377 /* Pods_itea_hometask_4UITests.framework */; };
+		135D8F26675240A1CF42D907 /* Pods_itea_hometask_4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B932C71DC0CD9B4986BC44AA /* Pods_itea_hometask_4Tests.framework */; };
+		5A2889CD874402AFEB29149B /* Pods_itea_hometask_4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D760C309643B10FA41F627 /* Pods_itea_hometask_4.framework */; };
 		9C14038122843DA30051D881 /* trashTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14038022843DA30051D881 /* trashTableViewCell.xib */; };
 		9C14038522843E100051D881 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14038422843DD80051D881 /* Product.swift */; };
 		9C14038922843F6B0051D881 /* productListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14038822843F6B0051D881 /* productListTableViewCell.xib */; };
@@ -45,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ED519668897624F8E796154 /* Pods-itea_hometask_4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itea_hometask_4UITests.debug.xcconfig"; path = "Target Support Files/Pods-itea_hometask_4UITests/Pods-itea_hometask_4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33D760C309643B10FA41F627 /* Pods_itea_hometask_4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itea_hometask_4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41170EB17BF9D2C271F00F46 /* Pods-itea_hometask_4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itea_hometask_4.release.xcconfig"; path = "Target Support Files/Pods-itea_hometask_4/Pods-itea_hometask_4.release.xcconfig"; sourceTree = "<group>"; };
+		54B94E2638EAE5B5332F00BB /* Pods-itea_hometask_4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itea_hometask_4.debug.xcconfig"; path = "Target Support Files/Pods-itea_hometask_4/Pods-itea_hometask_4.debug.xcconfig"; sourceTree = "<group>"; };
+		577FFD742E9D5B211C35B251 /* Pods-itea_hometask_4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itea_hometask_4Tests.release.xcconfig"; path = "Target Support Files/Pods-itea_hometask_4Tests/Pods-itea_hometask_4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		693BF24EF110418CA8614A12 /* Pods-itea_hometask_4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itea_hometask_4Tests.debug.xcconfig"; path = "Target Support Files/Pods-itea_hometask_4Tests/Pods-itea_hometask_4Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C14038022843DA30051D881 /* trashTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trashTableViewCell.xib; sourceTree = "<group>"; };
 		9C14038422843DD80051D881 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9C14038822843F6B0051D881 /* productListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = productListTableViewCell.xib; path = ../productListTableViewCell.xib; sourceTree = "<group>"; };
@@ -69,6 +78,9 @@
 		9CFF9E62228435D300FA4D09 /* itea_hometask_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itea_hometask_4UITests.swift; sourceTree = "<group>"; };
 		9CFF9E64228435D300FA4D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CFF9E712284365400FA4D09 /* tabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tabBar.storyboard; sourceTree = "<group>"; };
+		B932C71DC0CD9B4986BC44AA /* Pods_itea_hometask_4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itea_hometask_4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C682BF35F23D92D6AFA2877A /* Pods-itea_hometask_4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itea_hometask_4UITests.release.xcconfig"; path = "Target Support Files/Pods-itea_hometask_4UITests/Pods-itea_hometask_4UITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFA8A451D7869386A97BD377 /* Pods_itea_hometask_4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itea_hometask_4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2889CD874402AFEB29149B /* Pods_itea_hometask_4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135D8F26675240A1CF42D907 /* Pods_itea_hometask_4Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +104,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2912CEB0A69340E948232B /* Pods_itea_hometask_4UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EED4F50A569FD395D9AC9C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33D760C309643B10FA41F627 /* Pods_itea_hometask_4.framework */,
+				B932C71DC0CD9B4986BC44AA /* Pods_itea_hometask_4Tests.framework */,
+				CFA8A451D7869386A97BD377 /* Pods_itea_hometask_4UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C14038322843DD30051D881 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +164,8 @@
 				9CFF9E56228435D300FA4D09 /* itea_hometask_4Tests */,
 				9CFF9E61228435D300FA4D09 /* itea_hometask_4UITests */,
 				9CFF9E40228435D300FA4D09 /* Products */,
+				ABDF3FCD907605E46883501F /* Pods */,
+				2EED4F50A569FD395D9AC9C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,6 +233,20 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		ABDF3FCD907605E46883501F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54B94E2638EAE5B5332F00BB /* Pods-itea_hometask_4.debug.xcconfig */,
+				41170EB17BF9D2C271F00F46 /* Pods-itea_hometask_4.release.xcconfig */,
+				693BF24EF110418CA8614A12 /* Pods-itea_hometask_4Tests.debug.xcconfig */,
+				577FFD742E9D5B211C35B251 /* Pods-itea_hometask_4Tests.release.xcconfig */,
+				0ED519668897624F8E796154 /* Pods-itea_hometask_4UITests.debug.xcconfig */,
+				C682BF35F23D92D6AFA2877A /* Pods-itea_hometask_4UITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CFF9E67228435D300FA4D09 /* Build configuration list for PBXNativeTarget "itea_hometask_4" */;
 			buildPhases = (
+				3E090D1CCA7C312E757726DF /* [CP] Check Pods Manifest.lock */,
 				9CFF9E3B228435D300FA4D09 /* Sources */,
 				9CFF9E3C228435D300FA4D09 /* Frameworks */,
 				9CFF9E3D228435D300FA4D09 /* Resources */,
+				134F443723E3F30BB37E028C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CFF9E6A228435D300FA4D09 /* Build configuration list for PBXNativeTarget "itea_hometask_4Tests" */;
 			buildPhases = (
+				F8EE4AD4E4299308B7D4B408 /* [CP] Check Pods Manifest.lock */,
 				9CFF9E4F228435D300FA4D09 /* Sources */,
 				9CFF9E50228435D300FA4D09 /* Frameworks */,
 				9CFF9E51228435D300FA4D09 /* Resources */,
@@ -248,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CFF9E6D228435D300FA4D09 /* Build configuration list for PBXNativeTarget "itea_hometask_4UITests" */;
 			buildPhases = (
+				7564554422A68B917B61ED79 /* [CP] Check Pods Manifest.lock */,
 				9CFF9E5A228435D300FA4D09 /* Sources */,
 				9CFF9E5B228435D300FA4D09 /* Frameworks */,
 				9CFF9E5C228435D300FA4D09 /* Resources */,
@@ -334,6 +379,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		134F443723E3F30BB37E028C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-itea_hometask_4/Pods-itea_hometask_4-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-itea_hometask_4/Pods-itea_hometask_4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E090D1CCA7C312E757726DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-itea_hometask_4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7564554422A68B917B61ED79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-itea_hometask_4UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8EE4AD4E4299308B7D4B408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-itea_hometask_4Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CFF9E3B228435D300FA4D09 /* Sources */ = {
@@ -522,6 +658,7 @@
 		};
 		9CFF9E68228435D300FA4D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B94E2638EAE5B5332F00BB /* Pods-itea_hometask_4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +676,7 @@
 		};
 		9CFF9E69228435D300FA4D09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41170EB17BF9D2C271F00F46 /* Pods-itea_hometask_4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +694,7 @@
 		};
 		9CFF9E6B228435D300FA4D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693BF24EF110418CA8614A12 /* Pods-itea_hometask_4Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +715,7 @@
 		};
 		9CFF9E6C228435D300FA4D09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577FFD742E9D5B211C35B251 /* Pods-itea_hometask_4Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -596,6 +736,7 @@
 		};
 		9CFF9E6E228435D300FA4D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED519668897624F8E796154 /* Pods-itea_hometask_4UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -615,6 +756,7 @@
 		};
 		9CFF9E6F228435D300FA4D09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C682BF35F23D92D6AFA2877A /* Pods-itea_hometask_4UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

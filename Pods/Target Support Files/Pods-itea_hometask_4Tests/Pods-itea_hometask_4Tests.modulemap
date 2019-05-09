@@ -1,0 +1,6 @@
+framework module Pods_itea_hometask_4Tests {
+  umbrella header "Pods-itea_hometask_4Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import SCLAlertView
+import SCLAlertView
 
 class detailsViewController: UIViewController {
     
@@ -37,6 +37,12 @@ class detailsViewController: UIViewController {
         }
     }
     
+    func showAlert() {
+        let alertViewResponder: SCLAlertViewResponder = SCLAlertView().showSuccess("Hello World", subTitle: "This is a more descriptive text.")
+        alertViewResponder.setTitle("\(String(currProduct?.name ?? ""))") // Rename title
+        alertViewResponder.setSubTitle("Товар успешно помещен в корзину") // Rename subtitle
+    }
+    
     @IBAction func putToTrashPressed(_ sender: Any) {
         let trashViewController = tabBarController?.viewControllers?[1] as? trashViewController
         trashViewController?.update(prod: currProduct)
@@ -44,10 +50,8 @@ class detailsViewController: UIViewController {
         let productListViewController = tabBarController?.viewControllers?[0] as? productListViewController
         productListViewController?.remove(prod: currProduct)
         
-        
-        //            let alertViewResponder: SCLAlertViewResponder = SCLAlertView().showSuccess("Hello World", subTitle: "This is a more descriptive text.")
-        //            alertViewResponder.setTitle("\(String(currProduct?.name ?? ""))") // Rename title
-        //            alertViewResponder.setSubTitle("Товар успешно помещен в корзину") // Rename subtitle
-        //
+        if currProduct != nil {
+            showAlert()
+        }
     }
 }
