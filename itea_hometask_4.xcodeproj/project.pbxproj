@@ -19,7 +19,13 @@
 		9C140393228440190051D881 /* productListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C140392228440100051D881 /* productListTableViewCell.swift */; };
 		9C140395228440280051D881 /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C140394228440280051D881 /* tabBarViewController.swift */; };
 		9C140397228440400051D881 /* trashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C140396228440400051D881 /* trashTableViewCell.swift */; };
-		9C14039A228448960051D881 /* ViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C140399228448960051D881 /* ViewControllerExtention.swift */; };
+		9C14039F228460E90051D881 /* practiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14039C228460E90051D881 /* practiceTableViewCell.swift */; };
+		9C1403A0228460E90051D881 /* practiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14039D228460E90051D881 /* practiceTableViewCell.xib */; };
+		9C1403A1228460E90051D881 /* practiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14039E228460E90051D881 /* practiceViewController.swift */; };
+		9C1403A3228461270051D881 /* checkList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1403A2228461270051D881 /* checkList.storyboard */; };
+		9C1403A522847E650051D881 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1403A422847E650051D881 /* Lecture.swift */; };
+		9C1403A722847EDF0051D881 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1403A622847EDF0051D881 /* Teacher.swift */; };
+		9C1403A9228601A50051D881 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1403A8228601A50051D881 /* detailViewController.swift */; };
 		9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E42228435D300FA4D09 /* AppDelegate.swift */; };
 		9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E44228435D300FA4D09 /* ViewController.swift */; };
 		9CFF9E48228435D300FA4D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFF9E46228435D300FA4D09 /* Main.storyboard */; };
@@ -63,7 +69,13 @@
 		9C140392228440100051D881 /* productListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListTableViewCell.swift; sourceTree = "<group>"; };
 		9C140394228440280051D881 /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
 		9C140396228440400051D881 /* trashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trashTableViewCell.swift; sourceTree = "<group>"; };
-		9C140399228448960051D881 /* ViewControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtention.swift; sourceTree = "<group>"; };
+		9C14039C228460E90051D881 /* practiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = practiceTableViewCell.swift; sourceTree = "<group>"; };
+		9C14039D228460E90051D881 /* practiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = practiceTableViewCell.xib; sourceTree = "<group>"; };
+		9C14039E228460E90051D881 /* practiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = practiceViewController.swift; sourceTree = "<group>"; };
+		9C1403A2228461270051D881 /* checkList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = checkList.storyboard; sourceTree = "<group>"; };
+		9C1403A422847E650051D881 /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		9C1403A622847EDF0051D881 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		9C1403A8228601A50051D881 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		9CFF9E3F228435D300FA4D09 /* itea_hometask_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itea_hometask_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFF9E42228435D300FA4D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFF9E44228435D300FA4D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,12 +161,18 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		9C1403982284486A0051D881 /* Extentions */ = {
+		9C14039B228460A40051D881 /* checkList */ = {
 			isa = PBXGroup;
 			children = (
-				9C140399228448960051D881 /* ViewControllerExtention.swift */,
+				9C14039C228460E90051D881 /* practiceTableViewCell.swift */,
+				9C1403A422847E650051D881 /* Lecture.swift */,
+				9C1403A622847EDF0051D881 /* Teacher.swift */,
+				9C14039D228460E90051D881 /* practiceTableViewCell.xib */,
+				9C1403A8228601A50051D881 /* detailViewController.swift */,
+				9C14039E228460E90051D881 /* practiceViewController.swift */,
+				9C1403A2228461270051D881 /* checkList.storyboard */,
 			);
-			path = Extentions;
+			path = checkList;
 			sourceTree = "<group>";
 		};
 		9CFF9E36228435D300FA4D09 = {
@@ -182,6 +200,7 @@
 		9CFF9E41228435D300FA4D09 /* itea_hometask_4 */ = {
 			isa = PBXGroup;
 			children = (
+				9C14039B228460A40051D881 /* checkList */,
 				9CFF9E702284363000FA4D09 /* tabBar */,
 				9CFF9E42228435D300FA4D09 /* AppDelegate.swift */,
 				9CFF9E44228435D300FA4D09 /* ViewController.swift */,
@@ -214,7 +233,6 @@
 		9CFF9E702284363000FA4D09 /* tabBar */ = {
 			isa = PBXGroup;
 			children = (
-				9C1403982284486A0051D881 /* Extentions */,
 				9C140391228440030051D881 /* Cells */,
 				9C14038A22843F9B0051D881 /* ViewControllers */,
 				9C14038322843DD30051D881 /* Models */,
@@ -243,7 +261,6 @@
 				0ED519668897624F8E796154 /* Pods-itea_hometask_4UITests.debug.xcconfig */,
 				C682BF35F23D92D6AFA2877A /* Pods-itea_hometask_4UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -357,8 +374,10 @@
 			files = (
 				9C14038122843DA30051D881 /* trashTableViewCell.xib in Resources */,
 				9CFF9E722284365400FA4D09 /* tabBar.storyboard in Resources */,
+				9C1403A0228460E90051D881 /* practiceTableViewCell.xib in Resources */,
 				9CFF9E4D228435D300FA4D09 /* LaunchScreen.storyboard in Resources */,
 				9CFF9E4A228435D300FA4D09 /* Assets.xcassets in Resources */,
+				9C1403A3228461270051D881 /* checkList.storyboard in Resources */,
 				9CFF9E48228435D300FA4D09 /* Main.storyboard in Resources */,
 				9C14038922843F6B0051D881 /* productListTableViewCell.xib in Resources */,
 			);
@@ -476,12 +495,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1403A522847E650051D881 /* Lecture.swift in Sources */,
 				9C14038E22843FD40051D881 /* productListViewController.swift in Sources */,
 				9C140397228440400051D881 /* trashTableViewCell.swift in Sources */,
+				9C14039F228460E90051D881 /* practiceTableViewCell.swift in Sources */,
+				9C1403A722847EDF0051D881 /* Teacher.swift in Sources */,
 				9C14038C22843FBA0051D881 /* trashViewController.swift in Sources */,
 				9C14038522843E100051D881 /* Product.swift in Sources */,
+				9C1403A1228460E90051D881 /* practiceViewController.swift in Sources */,
 				9C140395228440280051D881 /* tabBarViewController.swift in Sources */,
-				9C14039A228448960051D881 /* ViewControllerExtention.swift in Sources */,
+				9C1403A9228601A50051D881 /* detailViewController.swift in Sources */,
 				9C14039022843FEB0051D881 /* detailsViewController.swift in Sources */,
 				9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */,
 				9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */,
