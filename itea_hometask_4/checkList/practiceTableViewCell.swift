@@ -9,7 +9,7 @@
 import UIKit
 
 protocol practiceTableViewCellProtocol {
-    func getCurrentLecture(index: Int)
+    func setIndexValueChoosed(index: Int, section: Int)
 }
 
 class practiceTableViewCell: UITableViewCell {
@@ -27,6 +27,7 @@ class practiceTableViewCell: UITableViewCell {
     var arrayOffsideView: [UIView] = []
     var arrayInsideView: [UIView] = []
     var arrayOfLabels: [UILabel] = []
+    var currentSection: Int = 4
     var delegate: practiceViewController?
     
     
@@ -39,7 +40,7 @@ class practiceTableViewCell: UITableViewCell {
     }
     
     func update(section: Int) {
-        
+        currentSection = section
         arrayOffsideView = [offsideView1, offsideView2, offsideView3]
         arrayInsideView  = [insideView1, insideView2, insideView3]
         arrayOfLabels  = [label1, label2, label3]
@@ -49,8 +50,9 @@ class practiceTableViewCell: UITableViewCell {
     }
     
     func fillData(section: Int) {
-    
-        if section == 0 {
+        
+        switch section {
+        case 0:
             var dateArray: [String] = []
             if let currDateArray = delegate?.lectureArray {
                 for item in currDateArray {
@@ -60,8 +62,7 @@ class practiceTableViewCell: UITableViewCell {
             for (index, item) in dateArray.enumerated(){
                 arrayOfLabels[index].text = item
             }
-        }
-        else if section == 1 {
+        case 1:
             var nameArray: [String] = []
             if let currNameArray = delegate?.lectureArray {
                 for item in currNameArray {
@@ -71,8 +72,7 @@ class practiceTableViewCell: UITableViewCell {
             for (index, item) in nameArray.enumerated(){
                 arrayOfLabels[index].text = item
             }
-        }
-        else if section == 2 {
+        case 2:
             var teacherArray: [Teacher] = []
             if let currTeacherArray = delegate?.lectureArray {
                 for item in currTeacherArray {
@@ -82,8 +82,11 @@ class practiceTableViewCell: UITableViewCell {
             for (index, item) in teacherArray.enumerated(){
                 arrayOfLabels[index].text = item.name
             }
+        default:
+            for (index, item)  in arrayOfLabels.enumerated(){
+                arrayOfLabels[index].text = "Значение не задано"
+            }
         }
-        
     }
     
     func cornerRadius(index: Int) {
@@ -99,12 +102,7 @@ class practiceTableViewCell: UITableViewCell {
             view.clipsToBounds =  true
             view.layer.cornerRadius = view.frame.size.height / 2
         }
-        findElementInLectureArray()
-  
-    }
-    
-    func findElementInLectureArray() {
-        
+        delegate?.setIndexValueChoosed(index: index, section: currentSection)
     }
     
     @IBAction func button3Pressed(_ sender: Any) {

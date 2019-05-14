@@ -13,6 +13,12 @@ class practiceViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var lectureArray: [Lecture] = []
+    var itemChoosedInCell: [Int] = []
+    var sectionNames = [
+        0: "Дата курса",
+        1: "Название курса",
+        2: "Имя лектора",
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,32 +32,36 @@ class practiceViewController: UIViewController {
     
     func lectureManager() {
         
-        let lecture1 = Lecture(name: "Курс лекций по физике", date: "дневные", teacher: Teacher(name: "Сергей Сергеич"))
+        let lecture1 = Lecture(name: "Курс лекций по физике",
+                               date: "дневные",
+                               image: "lecture",
+                               teacher: Teacher(name: "Дядя Вася из 3го парадного ", image: "jolie", familyName: "Вася из 3го парадного", specialization: "ядерная физика"))
         lectureArray.append(lecture1)
-        let lecture2 = Lecture(name: "Курс лекций по математике", date: "вечерние", teacher: Teacher(name: "Сергей Сергеич"))
+        let lecture2 = Lecture(name: "Курс лекций по математике",
+                               date: "вечерние",
+                               image: "lecture",
+                               teacher: Teacher(name: "Сергей Сергеич", image: "pitt", familyName: "Питт", specialization: "высшая математика"))
         lectureArray.append(lecture2)
-        let lecture3 = Lecture(name: "Курс лекций по математике", date: "утренние", teacher: Teacher(name: "Иван Иваныч"))
+        let lecture3 = Lecture(name: "Курс лекций по теории вероятности",
+                               date: "утренние",
+                               image: "lecture",
+                               teacher: Teacher(name: "Иван Петрович", image: "default", familyName: "Петрович", specialization: "просто космос"))
         lectureArray.append(lecture3)
         
+        itemChoosedInCell.append(4)
+        itemChoosedInCell.append(4)
+        itemChoosedInCell.append(4)
     }
 }
 
-extension practiceViewController: UITableViewDelegate, UITableViewDataSource {
+extension practiceViewController: UITableViewDelegate, UITableViewDataSource, practiceTableViewCellProtocol {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
         let view = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 40))
         view.backgroundColor = UIColor.lightGray
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
-        
-        if section == 0 {
-            label.text = "Дата курса"
-        }
-        else if section == 1 {
-            label.text = "Название курса"
-        }
-        else if section == 2 {
-            label.text = "Имя лектора"
-        }
+        label.text = sectionNames[section]
         label.font = UIFont.boldSystemFont(ofSize: 16)
         label.textAlignment = .center
         view.addSubview(label)
@@ -59,7 +69,7 @@ extension practiceViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return sectionNames.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -76,21 +86,14 @@ extension practiceViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
         let vc = storyboard?.instantiateViewController(withIdentifier: "detailViewController") as! detailViewController
-        var currLecture: Lecture
-        tableView.cellForRow(at: indexPath)
-        if indexPath.section == 0  {
-            currLecture = findLecture(section: indexPath.section)
-        }
-        vc.update(lecture: currLecture)
+        let currItemChoosed = itemChoosedInCell[indexPath.section]
+        let currLecture = (currItemChoosed >= lectureArray.count) ? nil : lectureArray[currItemChoosed]
+        vc.update(lecture: currLecture, section: indexPath.section)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    func findLecture(section: Int) -> Lecture? {
-        var currLecture: Lecture?
-        if section == 0 {
-            for (index, item) in lectureArray.enumerated(){
-//                if item.date ==
-                tableView.cellForRow(at: <#T##IndexPath#>)
-            }
-        }
+    func setIndexValueChoosed(index: Int, section: Int) {
+        itemChoosedInCell[section] = index
     }
+    
 }

@@ -12,11 +12,13 @@ class Lecture: NSObject {
 
     var name = ""
     var date = ""
+    var image = ""
     var teacher: Teacher?
     
-    init (name: String, date: String, teacher: Teacher) {
+    init (name: String, date: String, image: String, teacher: Teacher) {
         self.name = name
         self.date = date
+        self.image = image
         self.teacher = teacher
     }
 }

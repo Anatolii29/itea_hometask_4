@@ -11,9 +11,14 @@ import UIKit
 class Teacher: NSObject {
     
     var name = ""
+    var image = ""
+    var familyName = ""
+    var specialization = ""
     
-    init(name: String) {
-       self.name = name
+    init(name: String, image: String, familyName: String, specialization: String) {
+        self.name = name
+        self.image = image
+        self.familyName = familyName
+        self.specialization = specialization
     }
-
 }
