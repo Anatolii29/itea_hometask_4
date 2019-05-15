@@ -175,6 +175,13 @@
 			path = checkList;
 			sourceTree = "<group>";
 		};
+		9C61C5DF228C98FD000A192F /* guesterRecognisers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = guesterRecognisers;
+			sourceTree = "<group>";
+		};
 		9CFF9E36228435D300FA4D09 = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +207,7 @@
 		9CFF9E41228435D300FA4D09 /* itea_hometask_4 */ = {
 			isa = PBXGroup;
 			children = (
+				9C61C5DF228C98FD000A192F /* guesterRecognisers */,
 				9C14039B228460A40051D881 /* checkList */,
 				9CFF9E702284363000FA4D09 /* tabBar */,
 				9CFF9E42228435D300FA4D09 /* AppDelegate.swift */,
