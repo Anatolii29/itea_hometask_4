@@ -26,6 +26,12 @@
 		9C1403A522847E650051D881 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1403A422847E650051D881 /* Lecture.swift */; };
 		9C1403A722847EDF0051D881 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1403A622847EDF0051D881 /* Teacher.swift */; };
 		9C1403A9228601A50051D881 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1403A8228601A50051D881 /* detailViewController.swift */; };
+		9C61C5E1228C992B000A192F /* guesters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C61C5E0228C992B000A192F /* guesters.storyboard */; };
+		9C61C5E3228C9D20000A192F /* studentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C5E2228C9D20000A192F /* studentLoginViewController.swift */; };
+		9C61C5E5228C9E13000A192F /* studentCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C5E4228C9E13000A192F /* studentCollectionViewController.swift */; };
+		9C61C5E7228C9FC1000A192F /* studentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C5E6228C9FC1000A192F /* studentCollectionViewCell.swift */; };
+		9C61C5EB228CA7D0000A192F /* studentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C5EA228CA7D0000A192F /* studentDetailViewController.swift */; };
+		9C61C638229466A1000A192F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C637229466A1000A192F /* Student.swift */; };
 		9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E42228435D300FA4D09 /* AppDelegate.swift */; };
 		9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E44228435D300FA4D09 /* ViewController.swift */; };
 		9CFF9E48228435D300FA4D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFF9E46228435D300FA4D09 /* Main.storyboard */; };
@@ -76,6 +82,12 @@
 		9C1403A422847E650051D881 /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
 		9C1403A622847EDF0051D881 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		9C1403A8228601A50051D881 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		9C61C5E0228C992B000A192F /* guesters.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = guesters.storyboard; sourceTree = "<group>"; };
+		9C61C5E2228C9D20000A192F /* studentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentLoginViewController.swift; sourceTree = "<group>"; };
+		9C61C5E4228C9E13000A192F /* studentCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentCollectionViewController.swift; sourceTree = "<group>"; };
+		9C61C5E6228C9FC1000A192F /* studentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C61C5EA228CA7D0000A192F /* studentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentDetailViewController.swift; sourceTree = "<group>"; };
+		9C61C637229466A1000A192F /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		9CFF9E3F228435D300FA4D09 /* itea_hometask_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itea_hometask_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFF9E42228435D300FA4D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFF9E44228435D300FA4D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +190,12 @@
 		9C61C5DF228C98FD000A192F /* guesterRecognisers */ = {
 			isa = PBXGroup;
 			children = (
+				9C61C5E0228C992B000A192F /* guesters.storyboard */,
+				9C61C637229466A1000A192F /* Student.swift */,
+				9C61C5E6228C9FC1000A192F /* studentCollectionViewCell.swift */,
+				9C61C5E4228C9E13000A192F /* studentCollectionViewController.swift */,
+				9C61C5EA228CA7D0000A192F /* studentDetailViewController.swift */,
+				9C61C5E2228C9D20000A192F /* studentLoginViewController.swift */,
 			);
 			path = guesterRecognisers;
 			sourceTree = "<group>";
@@ -383,6 +401,7 @@
 				9C14038122843DA30051D881 /* trashTableViewCell.xib in Resources */,
 				9CFF9E722284365400FA4D09 /* tabBar.storyboard in Resources */,
 				9C1403A0228460E90051D881 /* practiceTableViewCell.xib in Resources */,
+				9C61C5E1228C992B000A192F /* guesters.storyboard in Resources */,
 				9CFF9E4D228435D300FA4D09 /* LaunchScreen.storyboard in Resources */,
 				9CFF9E4A228435D300FA4D09 /* Assets.xcassets in Resources */,
 				9C1403A3228461270051D881 /* checkList.storyboard in Resources */,
@@ -505,10 +524,14 @@
 			files = (
 				9C1403A522847E650051D881 /* Lecture.swift in Sources */,
 				9C14038E22843FD40051D881 /* productListViewController.swift in Sources */,
+				9C61C5E5228C9E13000A192F /* studentCollectionViewController.swift in Sources */,
 				9C140397228440400051D881 /* trashTableViewCell.swift in Sources */,
 				9C14039F228460E90051D881 /* practiceTableViewCell.swift in Sources */,
+				9C61C5E7228C9FC1000A192F /* studentCollectionViewCell.swift in Sources */,
 				9C1403A722847EDF0051D881 /* Teacher.swift in Sources */,
+				9C61C5EB228CA7D0000A192F /* studentDetailViewController.swift in Sources */,
 				9C14038C22843FBA0051D881 /* trashViewController.swift in Sources */,
+				9C61C5E3228C9D20000A192F /* studentLoginViewController.swift in Sources */,
 				9C14038522843E100051D881 /* Product.swift in Sources */,
 				9C1403A1228460E90051D881 /* practiceViewController.swift in Sources */,
 				9C140395228440280051D881 /* tabBarViewController.swift in Sources */,
@@ -516,6 +539,7 @@
 				9C14039022843FEB0051D881 /* detailsViewController.swift in Sources */,
 				9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */,
 				9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */,
+				9C61C638229466A1000A192F /* Student.swift in Sources */,
 				9C140393228440190051D881 /* productListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

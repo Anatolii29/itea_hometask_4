@@ -23,7 +23,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>checkList</string>
 	<key>UIMainStoryboardFile</key>
-	<string>checkList</string>
+	<string>guesters</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
