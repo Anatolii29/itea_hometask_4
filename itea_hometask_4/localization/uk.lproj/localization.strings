@@ -1,0 +1,96 @@
+
+/* Class = "UILabel"; text = "Student age1:"; ObjectID = "0vs-PK-zEe"; */
+"0vs-PK-zEe.text" = "Вик студента";
+
+/* Class = "UILabel"; text = "Photo1:"; ObjectID = "0vu-m7-hWH"; */
+"0vu-m7-hWH.text" = "Фотка студента";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5wG-MV-pMK"; */
+"5wG-MV-pMK.text" = "Label";
+
+/* Class = "UILabel"; text = "Student surname1:"; ObjectID = "6oY-KP-i8U"; */
+"6oY-KP-i8U.text" = "ПризвищеЖ";
+
+/* Class = "UILabel"; text = "Student age:"; ObjectID = "9GX-96-wuS"; */
+"9GX-96-wuS.text" = "Вик:";
+
+/* Class = "UILabel"; text = "Course1:"; ObjectID = "9Rp-EZ-ZBf"; */
+"9Rp-EZ-ZBf.text" = "Курс укр";
+
+/* Class = "UILabel"; text = "Student surname1:"; ObjectID = "CAa-xc-Fny"; */
+"CAa-xc-Fny.text" = "Призвище";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D0l-JU-JKf"; */
+"D0l-JU-JKf.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Dnm-4Q-pHV"; */
+"Dnm-4Q-pHV.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LfJ-nO-SSP"; */
+"LfJ-nO-SSP.text" = "Label";
+
+/* Class = "UILabel"; text = "Course1:"; ObjectID = "LhM-zI-j9v"; */
+"LhM-zI-j9v.text" = "Курс укр";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PEG-Z0-8Y8"; */
+"PEG-Z0-8Y8.text" = "Label";
+
+/* Class = "UILabel"; text = "Student name1:"; ObjectID = "RUD-MD-u2B"; */
+"RUD-MD-u2B.text" = "Имья";
+
+/* Class = "UILabel"; text = "Course:"; ObjectID = "ThF-Pt-Q58"; */
+"ThF-Pt-Q58.text" = "Курс укр";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UWW-TD-aMb"; */
+"UWW-TD-aMb.text" = "Label";
+
+/* Class = "UILabel"; text = "City1:"; ObjectID = "Vju-zM-oNd"; */
+"Vju-zM-oNd.text" = "Мисто";
+
+/* Class = "UILabel"; text = "Student name1:"; ObjectID = "Wc5-JG-s8q"; */
+"Wc5-JG-s8q.text" = "Имья";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cfs-0m-E6N"; */
+"cfs-0m-E6N.text" = "Label";
+
+/* Class = "UILabel"; text = "Student surname:"; ObjectID = "d9b-9u-noa"; */
+"d9b-9u-noa.text" = "Призвище";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "e8O-me-4ev"; */
+"e8O-me-4ev.normalTitle" = "Зберегти";
+
+/* Class = "UINavigationItem"; title = "Student card"; ObjectID = "eIL-6H-VtX"; */
+"eIL-6H-VtX.title" = "Картка студента";
+
+/* Class = "UILabel"; text = "Student age1:"; ObjectID = "h8J-dP-S98"; */
+"h8J-dP-S98.text" = "Вик студента";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hUm-12-H9y"; */
+"hUm-12-H9y.text" = "Label";
+
+/* Class = "UILabel"; text = "Student name:"; ObjectID = "koD-VQ-Swe"; */
+"koD-VQ-Swe.text" = "Имья студента";
+
+/* Class = "UILabel"; text = "Photo:"; ObjectID = "n96-fJ-fZK"; */
+"n96-fJ-fZK.text" = "Фотка студента";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nz4-Ry-Vto"; */
+"nz4-Ry-Vto.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tFg-tQ-roO"; */
+"tFg-tQ-roO.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tvk-1d-uFy"; */
+"tvk-1d-uFy.text" = "Label";
+
+/* Class = "UILabel"; text = "City1:"; ObjectID = "vLb-zg-xv0"; */
+"vLb-zg-xv0.text" = "Мисто";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xRV-fw-rqC"; */
+"xRV-fw-rqC.text" = "Label";
+
+/* Class = "UILabel"; text = "Photo1:"; ObjectID = "z4l-Rs-kht"; */
+"z4l-Rs-kht.text" = "Фотка студента";
+
+/* Class = "UILabel"; text = "City:"; ObjectID = "zzf-8b-z9N"; */
+"zzf-8b-z9N.text" = "Мисто";

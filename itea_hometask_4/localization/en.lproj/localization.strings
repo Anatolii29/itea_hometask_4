@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "Фото студента:"; ObjectID = "36D-gI-PLu"; */
+"36D-gI-PLu.text" = "Фото студента:";
+
+/* Class = "UILabel"; text = "Возраст студента:"; ObjectID = "4Le-kf-6UU"; */
+"4Le-kf-6UU.text" = "Возраст студента:";
+
+/* Class = "UILabel"; text = "Город:"; ObjectID = "5eO-cd-9C6"; */
+"5eO-cd-9C6.text" = "Город:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5wG-MV-pMK"; */
+"5wG-MV-pMK.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D0l-JU-JKf"; */
+"D0l-JU-JKf.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Dnm-4Q-pHV"; */
+"Dnm-4Q-pHV.text" = "Label";
+
+/* Class = "UILabel"; text = "Курс:"; ObjectID = "Ifx-fS-ccv"; */
+"Ifx-fS-ccv.text" = "Курс:";
+
+/* Class = "UILabel"; text = "Имя студента:"; ObjectID = "J9I-Om-FJz"; */
+"J9I-Om-FJz.text" = "Имя студента:";
+
+/* Class = "UINavigationItem"; title = "Карточка студента"; ObjectID = "KRl-Bi-Gau"; */
+"KRl-Bi-Gau.title" = "Карточка студента";
+
+/* Class = "UILabel"; text = "Фамилия студента:"; ObjectID = "R8v-hd-otP"; */
+"R8v-hd-otP.text" = "Фамилия студента:";
+
+/* Class = "UILabel"; text = "Фото студента:"; ObjectID = "SRK-VZ-irv"; */
+"SRK-VZ-irv.text" = "Фото студента:";
+
+/* Class = "UILabel"; text = "Имя студента:"; ObjectID = "Uij-So-Vkg"; */
+"Uij-So-Vkg.text" = "Имя студента:";
+
+/* Class = "UIButton"; normalTitle = "Сохранить"; ObjectID = "bVp-Rk-pTp"; */
+"bVp-Rk-pTp.normalTitle" = "Сохранить";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cfs-0m-E6N"; */
+"cfs-0m-E6N.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Карточка студента"; ObjectID = "eIL-6H-VtX"; */
+"eIL-6H-VtX.title" = "Карточка студента";
+
+/* Class = "UILabel"; text = "Город:"; ObjectID = "hup-2A-8kp"; */
+"hup-2A-8kp.text" = "Город:";
+
+/* Class = "UILabel"; text = "Возраст студента:"; ObjectID = "hzh-5X-C4W"; */
+"hzh-5X-C4W.text" = "Возраст студента:";
+
+/* Class = "UILabel"; text = "Фамилия студента:"; ObjectID = "oKa-7s-ieH"; */
+"oKa-7s-ieH.text" = "Фамилия студента:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tvk-1d-uFy"; */
+"tvk-1d-uFy.text" = "Label";
+
+/* Class = "UILabel"; text = "Курс:"; ObjectID = "xOY-z0-nKQ"; */
+"xOY-z0-nKQ.text" = "Курс:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xRV-fw-rqC"; */
+"xRV-fw-rqC.text" = "Label";

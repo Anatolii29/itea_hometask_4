@@ -32,6 +32,11 @@
 		9C61C5E7228C9FC1000A192F /* studentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C5E6228C9FC1000A192F /* studentCollectionViewCell.swift */; };
 		9C61C5EB228CA7D0000A192F /* studentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C5EA228CA7D0000A192F /* studentDetailViewController.swift */; };
 		9C61C638229466A1000A192F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C637229466A1000A192F /* Student.swift */; };
+		9C61C63D2295DE9B000A192F /* localizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C63C2295DE9B000A192F /* localizationViewController.swift */; };
+		9C61C63F2295E3E5000A192F /* studentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C63E2295E3E5000A192F /* studentDetailsViewController.swift */; };
+		9C61C6402295E7C8000A192F /* localization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C61C6422295E7C8000A192F /* localization.storyboard */; };
+		9C61C65022970CA2000A192F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C61C65222970CA2000A192F /* Localizable.strings */; };
+		9C61C65722971302000A192F /* filter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C61C65622971302000A192F /* filter.storyboard */; };
 		9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E42228435D300FA4D09 /* AppDelegate.swift */; };
 		9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E44228435D300FA4D09 /* ViewController.swift */; };
 		9CFF9E48228435D300FA4D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFF9E46228435D300FA4D09 /* Main.storyboard */; };
@@ -88,6 +93,15 @@
 		9C61C5E6228C9FC1000A192F /* studentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentCollectionViewCell.swift; sourceTree = "<group>"; };
 		9C61C5EA228CA7D0000A192F /* studentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentDetailViewController.swift; sourceTree = "<group>"; };
 		9C61C637229466A1000A192F /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9C61C63C2295DE9B000A192F /* localizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localizationViewController.swift; sourceTree = "<group>"; };
+		9C61C63E2295E3E5000A192F /* studentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentDetailsViewController.swift; sourceTree = "<group>"; };
+		9C61C6412295E7C8000A192F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/localization.storyboard; sourceTree = "<group>"; };
+		9C61C64C22970825000A192F /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/localization.strings; sourceTree = "<group>"; };
+		9C61C64D229709C5000A192F /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/localization.storyboard; sourceTree = "<group>"; };
+		9C61C65122970CA2000A192F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9C61C65322970CA5000A192F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9C61C65422970CA8000A192F /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9C61C65622971302000A192F /* filter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = filter.storyboard; sourceTree = "<group>"; };
 		9CFF9E3F228435D300FA4D09 /* itea_hometask_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itea_hometask_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFF9E42228435D300FA4D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFF9E44228435D300FA4D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +214,25 @@
 			path = guesterRecognisers;
 			sourceTree = "<group>";
 		};
+		9C61C6392295DDB8000A192F /* localization */ = {
+			isa = PBXGroup;
+			children = (
+				9C61C6422295E7C8000A192F /* localization.storyboard */,
+				9C61C65222970CA2000A192F /* Localizable.strings */,
+				9C61C63E2295E3E5000A192F /* studentDetailsViewController.swift */,
+				9C61C63C2295DE9B000A192F /* localizationViewController.swift */,
+			);
+			path = localization;
+			sourceTree = "<group>";
+		};
+		9C61C655229712E0000A192F /* filter */ = {
+			isa = PBXGroup;
+			children = (
+				9C61C65622971302000A192F /* filter.storyboard */,
+			);
+			path = filter;
+			sourceTree = "<group>";
+		};
 		9CFF9E36228435D300FA4D09 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +258,8 @@
 		9CFF9E41228435D300FA4D09 /* itea_hometask_4 */ = {
 			isa = PBXGroup;
 			children = (
+				9C61C655229712E0000A192F /* filter */,
+				9C61C6392295DDB8000A192F /* localization */,
 				9C61C5DF228C98FD000A192F /* guesterRecognisers */,
 				9C14039B228460A40051D881 /* checkList */,
 				9CFF9E702284363000FA4D09 /* tabBar */,
@@ -380,6 +415,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				uk,
 			);
 			mainGroup = 9CFF9E36228435D300FA4D09;
 			productRefGroup = 9CFF9E40228435D300FA4D09 /* Products */;
@@ -400,8 +437,11 @@
 			files = (
 				9C14038122843DA30051D881 /* trashTableViewCell.xib in Resources */,
 				9CFF9E722284365400FA4D09 /* tabBar.storyboard in Resources */,
+				9C61C65022970CA2000A192F /* Localizable.strings in Resources */,
 				9C1403A0228460E90051D881 /* practiceTableViewCell.xib in Resources */,
+				9C61C6402295E7C8000A192F /* localization.storyboard in Resources */,
 				9C61C5E1228C992B000A192F /* guesters.storyboard in Resources */,
+				9C61C65722971302000A192F /* filter.storyboard in Resources */,
 				9CFF9E4D228435D300FA4D09 /* LaunchScreen.storyboard in Resources */,
 				9CFF9E4A228435D300FA4D09 /* Assets.xcassets in Resources */,
 				9C1403A3228461270051D881 /* checkList.storyboard in Resources */,
@@ -528,6 +568,7 @@
 				9C140397228440400051D881 /* trashTableViewCell.swift in Sources */,
 				9C14039F228460E90051D881 /* practiceTableViewCell.swift in Sources */,
 				9C61C5E7228C9FC1000A192F /* studentCollectionViewCell.swift in Sources */,
+				9C61C63D2295DE9B000A192F /* localizationViewController.swift in Sources */,
 				9C1403A722847EDF0051D881 /* Teacher.swift in Sources */,
 				9C61C5EB228CA7D0000A192F /* studentDetailViewController.swift in Sources */,
 				9C14038C22843FBA0051D881 /* trashViewController.swift in Sources */,
@@ -535,6 +576,7 @@
 				9C14038522843E100051D881 /* Product.swift in Sources */,
 				9C1403A1228460E90051D881 /* practiceViewController.swift in Sources */,
 				9C140395228440280051D881 /* tabBarViewController.swift in Sources */,
+				9C61C63F2295E3E5000A192F /* studentDetailsViewController.swift in Sources */,
 				9C1403A9228601A50051D881 /* detailViewController.swift in Sources */,
 				9C14039022843FEB0051D881 /* detailsViewController.swift in Sources */,
 				9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */,
@@ -576,6 +618,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9C61C6422295E7C8000A192F /* localization.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C61C6412295E7C8000A192F /* Base */,
+				9C61C64C22970825000A192F /* uk */,
+				9C61C64D229709C5000A192F /* ru */,
+			);
+			name = localization.storyboard;
+			sourceTree = "<group>";
+		};
+		9C61C65222970CA2000A192F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C61C65122970CA2000A192F /* en */,
+				9C61C65322970CA5000A192F /* ru */,
+				9C61C65422970CA8000A192F /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		9CFF9E46228435D300FA4D09 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -599,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -660,6 +723,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
