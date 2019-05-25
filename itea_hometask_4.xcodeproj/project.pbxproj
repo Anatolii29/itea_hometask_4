@@ -37,6 +37,11 @@
 		9C61C6402295E7C8000A192F /* localization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C61C6422295E7C8000A192F /* localization.storyboard */; };
 		9C61C65022970CA2000A192F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C61C65222970CA2000A192F /* Localizable.strings */; };
 		9C61C65722971302000A192F /* filter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C61C65622971302000A192F /* filter.storyboard */; };
+		9C61C65922971632000A192F /* filterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C65822971632000A192F /* filterViewController.swift */; };
+		9C61C65B22971A22000A192F /* filterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C65A22971A22000A192F /* filterCollectionViewCell.swift */; };
+		9C61C65D22972044000A192F /* FilterChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61C65C22972044000A192F /* FilterChooseViewController.swift */; };
+		9CF42778229955F20037169F /* FilterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF42777229955F20037169F /* FilterDetailViewController.swift */; };
+		9CF4277A229956840037169F /* FilterProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF42779229956840037169F /* FilterProduct.swift */; };
 		9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E42228435D300FA4D09 /* AppDelegate.swift */; };
 		9CFF9E45228435D300FA4D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF9E44228435D300FA4D09 /* ViewController.swift */; };
 		9CFF9E48228435D300FA4D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFF9E46228435D300FA4D09 /* Main.storyboard */; };
@@ -102,6 +107,11 @@
 		9C61C65322970CA5000A192F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9C61C65422970CA8000A192F /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9C61C65622971302000A192F /* filter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = filter.storyboard; sourceTree = "<group>"; };
+		9C61C65822971632000A192F /* filterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterViewController.swift; sourceTree = "<group>"; };
+		9C61C65A22971A22000A192F /* filterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C61C65C22972044000A192F /* FilterChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChooseViewController.swift; sourceTree = "<group>"; };
+		9CF42777229955F20037169F /* FilterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDetailViewController.swift; sourceTree = "<group>"; };
+		9CF42779229956840037169F /* FilterProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProduct.swift; sourceTree = "<group>"; };
 		9CFF9E3F228435D300FA4D09 /* itea_hometask_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itea_hometask_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFF9E42228435D300FA4D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFF9E44228435D300FA4D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -229,6 +239,11 @@
 			isa = PBXGroup;
 			children = (
 				9C61C65622971302000A192F /* filter.storyboard */,
+				9CF42777229955F20037169F /* FilterDetailViewController.swift */,
+				9C61C65C22972044000A192F /* FilterChooseViewController.swift */,
+				9C61C65A22971A22000A192F /* filterCollectionViewCell.swift */,
+				9C61C65822971632000A192F /* filterViewController.swift */,
+				9CF42779229956840037169F /* FilterProduct.swift */,
 			);
 			path = filter;
 			sourceTree = "<group>";
@@ -564,17 +579,21 @@
 			files = (
 				9C1403A522847E650051D881 /* Lecture.swift in Sources */,
 				9C14038E22843FD40051D881 /* productListViewController.swift in Sources */,
+				9C61C65D22972044000A192F /* FilterChooseViewController.swift in Sources */,
 				9C61C5E5228C9E13000A192F /* studentCollectionViewController.swift in Sources */,
+				9C61C65B22971A22000A192F /* filterCollectionViewCell.swift in Sources */,
 				9C140397228440400051D881 /* trashTableViewCell.swift in Sources */,
 				9C14039F228460E90051D881 /* practiceTableViewCell.swift in Sources */,
 				9C61C5E7228C9FC1000A192F /* studentCollectionViewCell.swift in Sources */,
 				9C61C63D2295DE9B000A192F /* localizationViewController.swift in Sources */,
 				9C1403A722847EDF0051D881 /* Teacher.swift in Sources */,
+				9C61C65922971632000A192F /* filterViewController.swift in Sources */,
 				9C61C5EB228CA7D0000A192F /* studentDetailViewController.swift in Sources */,
 				9C14038C22843FBA0051D881 /* trashViewController.swift in Sources */,
 				9C61C5E3228C9D20000A192F /* studentLoginViewController.swift in Sources */,
 				9C14038522843E100051D881 /* Product.swift in Sources */,
 				9C1403A1228460E90051D881 /* practiceViewController.swift in Sources */,
+				9CF42778229955F20037169F /* FilterDetailViewController.swift in Sources */,
 				9C140395228440280051D881 /* tabBarViewController.swift in Sources */,
 				9C61C63F2295E3E5000A192F /* studentDetailsViewController.swift in Sources */,
 				9C1403A9228601A50051D881 /* detailViewController.swift in Sources */,
@@ -583,6 +602,7 @@
 				9CFF9E43228435D300FA4D09 /* AppDelegate.swift in Sources */,
 				9C61C638229466A1000A192F /* Student.swift in Sources */,
 				9C140393228440190051D881 /* productListTableViewCell.swift in Sources */,
+				9CF4277A229956840037169F /* FilterProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
